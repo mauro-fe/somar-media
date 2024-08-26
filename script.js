@@ -16,7 +16,7 @@ calc.addEventListener('click', function (e) {
 
     if (cxN1Val < 0 || cxN1Val > 10 || cxN2Val < 0 || cxN2Val > 10 || cxN1Val === '' || cxN2Val === '') {
         aviso.classList.add('aviso')
-        aviso.innerHTML = `*Digite um numero válido*<br>`
+        aviso.innerHTML = `*Digite numeros entre 0 e 10*<br>`
         situacao.value = ''
         situacao.classList.remove('reprovado')
         situacao.classList.remove('recuperacao')
